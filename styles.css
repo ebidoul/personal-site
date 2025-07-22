@@ -1,0 +1,34 @@
+/* Custom Styles */
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Custom accent color for buttons */
+.btn-primary {
+  background-color: #007bff; /* A vibrant blue */
+  border-color: #007bff;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+  border-color: #0056b3;
+}
+
+/* Project card hover animation */
+.card {
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}
+
+/* Image cropping and sizing */
+.profile-car-img {
+  width: 100%; /* Make it responsive within its column */
+  max-height: 300px; /* Set a maximum height */
+  object-fit: cover; /* Crop to cover the area */
+  object-position: center; /* Center the image within the frame */
+}
